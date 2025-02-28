@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/firstdraft/openai-chat
+  revision: d8a478399e351ae51c5ff000be0fc23265a6a011
+  specs:
+    openai-chat (0.0.1)
+      activesupport (>= 2.3.5)
+      http (>= 5.2.0)
+      json (>= 2.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -202,6 +211,7 @@ GEM
     jbuilder (2.12.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    json (2.10.1)
     kaminari (1.2.2)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.2)
@@ -461,6 +471,7 @@ DEPENDENCIES
   http
   importmap-rails
   jbuilder
+  openai-chat!
   pg (~> 1.1)
   pry-rails
   puma
